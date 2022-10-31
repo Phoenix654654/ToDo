@@ -1,0 +1,51 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.priority {
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.titleBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.titleInput {
+    width: 100%;
+    border: 1px solid gray;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+.btn {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.descriptionContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.addDescr {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    align-self: flex-end;   
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+}

@@ -1,0 +1,72 @@
+.list {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 0 25px 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: 0.4s;
+}
+
+.content:hover {
+    background: rgb(226, 225, 225);
+    transition: 0.4s;
+    margin: 0 -5px 0 -5px;
+}
+
+.content:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.left {
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.priority {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.prior {
+    font-size: 16px;
+}
+
+.input {
+    margin-top: 6px;
+}
+
+.tagsPopup {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  position: absolute;
+  background: #fff;
+  right: 100px;
+  bottom: 0;
+  transform: translateY(100%);
+  z-index: 5;
+}
+
+.tagsPopupTop {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px;
+}

@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app {
+  background: #2E3035;
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+.app__content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.app__clear {
+  margin-top: 40px;
+}
